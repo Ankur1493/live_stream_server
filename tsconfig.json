@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "lib": ["es2017"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "rootDir": "./",
+        "resolveJsonModule": true,
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "baseUrl": "./src",
+        "paths": {
+            "@/*": ["./*"]
+        }
+    },
+    "include": [
+        "src",
+        "package.json"
+    ],
+    "exclude": [
+        "src/**/*.test.ts"
+    ]
+}
